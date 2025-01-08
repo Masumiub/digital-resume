@@ -1,0 +1,266 @@
+/* *{
+    /* margin: 0; */
+    /* font-family: Arial, Helvetica, sans-serif; 
+} */
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+  
+
+nav{
+    background-color: #F5FFE3;
+}
+
+.navigation {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 7px;
+
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.navigation a:hover {
+    color: #005f37;
+}
+
+.navigation li .btn {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #005f37;
+    border: none;
+}
+
+.navigation li .btn:hover {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2cb67c;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftside {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.rightside {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.aboveTheFold{
+    background-color: #F5FFE3;
+    background-image: url("/img/Developer.png"), url("img/bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    background-size: contain;
+}
+
+.heading1 {
+    font-size: 62px;
+}
+
+.bodyText {
+    line-height: 30px;
+    color: #646464;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #005f37;
+    border: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.btn:hover {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2cb67c;
+}
+
+.btn-outline {
+    color: #005f37;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #005f37;
+    background-color: #fff;
+}
+
+.btn-outline:hover {
+    color: #ffffff;
+    background-color: #005f37;
+}
+
+.aboutme {
+    text-align: center;
+    padding: 80px;
+    border: 1px solid #005f37;
+    margin-top: 85px;
+    border-radius: 5px;
+}
+
+.resume{
+    margin-top: 85px;
+}
+
+.heading{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+}
+
+#whatIDo{
+    margin-top: 85px;
+}
+
+.card{
+    padding: 25px;
+    box-shadow: 0px 2px 10px 0px rgba(179,179,179,0.29);
+    border-radius: 10px;
+    margin: 15px;
+}
+.card:hover{
+    background-color: #fafafa;
+}
+
+.cardskill{
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0px 2px 10px 0px rgba(179,179,179,0.12);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.cardskill img{
+    width: 80px;
+    height: 80px;
+}
+
+.cardskill h5{
+    margin: 0;
+}
+
+#skillset{
+    margin-top: 85px;
+}
+
+.headimg{
+    width: 100%;
+}
+
+#projects{
+    margin-top: 85px;
+}
+
+.projectimg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#Contact{
+    margin-top: 85px;
+}
+
+.lastTheFold{
+    background-color: #F5FFE3;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+footer{
+    background-color: #F5FFE3;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-top: 1px solid #f2f2f2;
+}
+
+@media screen and (max-width: 640px) {
+    .row{
+        display: block;  
+    }
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    #whatIDo .row{
+        display: block;
+        
+    }
+    #skillset .row{
+        display: block;
+    }
+
+    #projects .row{
+        display: block;
+    }
+  }
+
+  input[type="text"], input[type="email"]{
+    width: 100%;
+    border: none;
+    height: 34px;
+    margin-top: 9px;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  textarea{
+    width: 100%;
+    border: none;
+    margin-top: 9px;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+
+
+
+@media screen and (min-width: 640px){
+    .leftside {
+        width: 50%;
+    }
+    .rightside{
+        width: 50%;
+    }
+}
